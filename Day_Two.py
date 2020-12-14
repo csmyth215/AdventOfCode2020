@@ -46,7 +46,3 @@ for l in new_lines:
 
 
 print(len(second_valid_password_list))
-
-
-
-
