@@ -1,3 +1,7 @@
+import time
+
+t = time.process_time()
+
 puzzle_input = [5,1,9,18,13,8,0]
 
 def save_part_one_output(puzzle_data):
@@ -24,4 +28,6 @@ while last_position < (30000000 - 1):
 
     last_position += 1
 
-print(i)
+print(f"The 30000000th number spoken is {i}.")
+elapsed_time = time.process_time() - t
+print(f"This code took {elapsed_time}s to run.")
